@@ -5,9 +5,15 @@
   }
   @media (min-width: 768px) {
     .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
+    #appPic1 {
+      height: 300px;
+      width: 340px;
+      margin-left: auto;
+        margin-right: auto;
+    } 
   }
   
   .jumbotron p:last-child {
@@ -32,8 +38,8 @@
   }
 
 #appPic {
-  height: 334px;
-  width: 334px;
+  height: 300px;
+  width: 340px;
   margin-left: auto;
     margin-right: auto;
 }  
@@ -47,24 +53,13 @@
 } 
 
 #appPic1 {
-  height: 450px;
+  height: 360px;
   width: 450px;
   margin-left: auto;
     margin-right: auto;
 }  
-body, html {
-  height: 100%;
-}
 
-.bg { 
-  /* The image used */
-  background-image: url("Assets\pexels-shonejai-1227511.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#smallCard{
+  border: none;
+  margin: 24px;
 }
