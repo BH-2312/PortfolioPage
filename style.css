@@ -2,7 +2,6 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 0;
-    background-color: #fff;
   }
   @media (min-width: 768px) {
     .jumbotron {
@@ -31,10 +30,41 @@
   footer p {
     margin-bottom: .25rem;
   }
-img{
+
+#appPic {
   height: 334px;
   width: 334px;
+  margin-left: auto;
+    margin-right: auto;
 }  
-.card-body{
+
+.card-body {
   text-align: center;
+}
+
+#pdf {
+ size: 200px;
+} 
+
+#appPic1 {
+  height: 450px;
+  width: 450px;
+  margin-left: auto;
+    margin-right: auto;
+}  
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("Assets\pexels-shonejai-1227511.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
